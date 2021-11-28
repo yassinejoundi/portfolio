@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background: #3c3a39;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+}
+
+.hero, .works, .about, .chating {
+    padding: 120px 24px;
+}
+
+.hero, .about {
+    background: #1c1a19;
+}
+
+.hero h1, .about h1 {
+    color: #ff6b00;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0.37px;
+}
+
+.hero h3 {
+    color: #fff5e1;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 12px 0;
+}
+
+.hero p, .about p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.medias {
+    color: #dbd8d7;
+    margin: 22px 0 0 0;
+}
+
+.medias span {
+    margin: 0 12px;
+}
+
+.works h1 {
+    font-size: 40px;
+    line-height: 52px;
+    color: #1c1a19;
+}
+
+.works hr {
+    border: 1px solid #212121;
+    margin: 24px 0 80px 0;
+}
+
+.works h2 {
+    font-size: 32px;
+    line-height: 44px;  
+    margin: 24px 0 0 0;
+}
+
+.works p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 12px 0;
+}
+
+.tags, .card-tags {
+    margin: 12px 0;
+}
+
+.tag {
+    padding: 10px;
+    border: 1px solid #8993a4;
+    margin: 12px;
+}
+
+.tag:first-child {
+    margin: 0;
+}
+
+button {
+    background: #ff6b00;
+    padding: 12px;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+
+.cards {
+    margin: 24px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: url('./assets/card_background.png');
+    margin: 24px 0;
+}
+
+.card-centent {
+    padding: 84px 16px 22px 16px;
+}
+
+.card-centent h3 {
+    color: #fff;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.card-centent p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.card-tag {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.24);
+    color: #fff;
+    margin: 12px;
+}
+
+.card-tag:first-child {
+    margin: 0;
+}
+.card button {
+    width: 100%;
+}
+
+.about hr {
+    border: 1px solid #FFF;
+    margin: 209px 0 137px 0;
+}
+
+.about-sections {
+    color: #fff;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 44px 0;
+}
+
+.about-section h4 {
+    font-size: 22px;
+    line-height: 43px;
+    margin: 32px 0;
+}
+
+.chating h1 {
+    color: #172b4d;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    margin: 0 0 73px 0;
+}
+
+.chating input {
+    border: none;
+    border-bottom: 1px solid #dbd8d7;
+    width: 100%;
+    padding: 14px;
+}
+
+#email {
+    margin: 24px 0;
+}
+
+#message {
+    width: 100%;
+    border: none;
+    background: #fbf8f7;
+    padding: 12px;
+}
+
+.chating button {
+    margin: auto;
+}
+
+footer {
+    padding: 25px 0 8px 0;
+    border-top: 1px solid #dfe1e6;
+}
+
+footer section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.foot-medias a {
+    color: #505f79 !important;
+    fill: #505f79 !important;
+    margin: 0 10px;
+}
+
+footer hr {
+    width: 134px;
+    height: 5px !important;
+    background: #0d151e;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 12px 0 0 0;
+}
+
+.mobile-header {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+}
+
+.mobile-about {
+    position: absolute;
+    left: 60%;
+    top: 890%;
+}
+
+.foot-svg {
+    fill: #505f79 !important;
+    color: #172b4d;
+}
