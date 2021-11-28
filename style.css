@@ -12,7 +12,7 @@
     padding: 12px 24px;
 }
 
-.hero, .works, .about{
+.hero, .works, .about, .chating{
     padding: 120px 24px;
 }
 
@@ -156,4 +156,35 @@ button{
     font-size: 22px;
     line-height: 43px;
     margin: 32px 0;
+}
+
+.chating h1 {
+    color: #172B4D;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    margin: 0 0 73px 0;
+}
+
+.chating input{
+    border: none;
+    border-bottom: 1px solid #DBD8D7;
+    width: 100%;
+    padding: 14px;
+}
+
+#email{
+    margin: 24px 0;
+}
+
+#message{
+    width: 100%;
+    border: none;
+    background: #FBF8F7;
+    padding: 12px;
+}
+
+.chating button{
+    margin: auto;
 }
