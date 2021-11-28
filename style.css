@@ -19,7 +19,13 @@
 .hero, .about{
     background: #1C1A19;
 }
-
+/*
+.hero{
+    background-image: url('./assets/illustration-header-mobile.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+*/
 .hero h1, .about h1{
     color: #FF6B00;
     font-size: 56px;
@@ -187,4 +193,48 @@ button{
 
 .chating button{
     margin: auto;
+}
+
+footer{
+    padding: 25px 0 8px 0;
+    border-top: 1px solid #DFE1E6;
+}
+
+footer section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.foot-medias a{
+    color: #505F79 !important;
+    fill: #505F79 !important;
+    margin: 0 10px;
+}
+
+footer hr{
+    width: 134px;
+    height: 5px !important;
+    background: #0D151E;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 12px 0 0 0;
+}
+
+.mobile-header{
+    position: absolute;
+    left: 60%;
+    top: 50%;
+}
+
+.mobile-about{
+    position: absolute;
+    left: 60%;
+    top: 890%;
+}
+
+.foot-svg {
+    fill: #505F79 !important;
+    color: #172B4D;
 }
