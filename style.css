@@ -12,15 +12,15 @@
     padding: 12px 24px;
 }
 
-.hero, .works{
+.hero, .works, .about{
     padding: 120px 24px;
 }
 
-.hero{
+.hero, .about{
     background: #1C1A19;
 }
 
-.hero h1{
+.hero h1, .about h1{
     color: #FF6B00;
     font-size: 56px;
     line-height: 64px;
@@ -34,7 +34,7 @@
     margin: 12px 0;
 }
 
-.hero p{
+.hero p, .about p{
     color: #fff;
     font-size: 16px;
     line-height: 24px;
@@ -133,4 +133,27 @@ button{
 }
 .card button {
     width: 100%;
+}
+
+.about hr{
+    border: 1px solid #FFF;
+    margin: 209px 0 137px 0;
+}
+
+.about-sections{
+    color: #fff;
+    text-align: center;
+}
+
+.about-section h2{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    margin: 44px 0;
+}
+
+.about-section h4{
+    font-size: 22px;
+    line-height: 43px;
+    margin: 32px 0;
 }
