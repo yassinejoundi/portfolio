@@ -43,8 +43,8 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/yassinejoundi)
-- Twitter: [@twitterhandle](https://twitter.com/yassine.joundi)
+- GitHub: [@yassinejoundi](https://github.com/yassinejoundi)
+- Twitter: [@yassine.joundi](https://twitter.com/yassine.joundi)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/yassinejoundi)
 
 
